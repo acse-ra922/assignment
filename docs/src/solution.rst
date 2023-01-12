@@ -1,5 +1,5 @@
 Programming Assignment
 =======
 
-.. automodule:: dist_function
+.. automodule:: assignment_solution.dist_function
   :members:
