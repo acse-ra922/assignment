@@ -1,3 +1,4 @@
+import timeit
 def distance(s,parameters):
     """
     This function takes three arguments: 
@@ -84,3 +85,14 @@ def main():
     print(distance(s,parameters))
     
 #main()  #uncomment to run the main function  
+
+def time_analysis():
+    """
+    Time and Complexity Analysis
+
+    This function is to analyze the time and space complexity of the dist_function
+    The dist_function has a time complexity of O(n) as it consists of programming statements with
+    a complexity of constant time (O(1)) and a for loop and a while loop, both of which have a 
+    complexity of O(n).
+    """
+    timeit.timeit(distance("blue yellow red","blue, red"))
