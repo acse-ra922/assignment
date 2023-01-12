@@ -1,0 +1,9 @@
+name: assignment
+channels:
+  - defaults
+  - conda-forge
+dependencies: 
+ - pytest
+ - pytest-timeout
+ - sphinx
+ 
