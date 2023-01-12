@@ -23,7 +23,7 @@ The function distance solves the problem mentioned in the assignment.
 In addition to distance function, there is a main function and a complexity analysis function.
 
 Moreover, the folder tests contain a python file tests.py which uses pytest to test the distance function.
-I have created a github workflow to run pytest.
+
 
 
 ## Documentation
